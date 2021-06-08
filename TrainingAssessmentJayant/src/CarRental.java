@@ -227,7 +227,7 @@ public class CarRental {
 					Reservation res_data = userReservations.getValue();
 					if(user_id.equals(uid)) {
 						System.out.println("You have the car " + res_data.getReg_id() + " in use since " + res_data.getBook_time());
-						System.out.println("Do you want to cancel the reservation?");
+						System.out.println("Do you wish to finish the trip?");
 						System.out.println("1. Yes");
 						System.out.println("2. No");
 						String cancel_choice = sc.nextLine();
@@ -272,7 +272,7 @@ public class CarRental {
 					Reservation res_data = userReservations.getValue();
 					if(user_id.equals(uid)) {
 						System.out.println("You have the car " + res_data.getReg_id() + " in use since " + res_data.getBook_time());
-						System.out.println("Do you want to cancel the reservation?");
+						System.out.println("Do you wish to finish the trip?");
 						System.out.println("1. Yes");
 						System.out.println("2. No");
 						String cancel_choice = sc.nextLine();
