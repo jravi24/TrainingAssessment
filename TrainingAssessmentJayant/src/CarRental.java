@@ -321,19 +321,19 @@ public class CarRental {
 		Scanner sc = new Scanner(System.in);
 		String currency_choice = sc.nextLine();
 		if(currency_choice.equals("1")) {
-			conv_cost = final_cost*(1/81);
+			conv_cost = final_cost*(0.0123);
 			System.out.println("Cost in EUR is " + conv_cost);
 		}
 		else if(currency_choice.equals("2")) {
-			conv_cost = final_cost*(1/67.5);
+			conv_cost = final_cost*(0.0148);
 			System.out.println("Cost in USD is " + conv_cost);
 		}
 		else if(currency_choice.equals("3")) {
-			conv_cost = final_cost*(1/90);
+			conv_cost = final_cost*(0.0111);
 			System.out.println("Cost in GBP is " + conv_cost);
 		}
 		else if(currency_choice.equals("4")) {
-			conv_cost = final_cost*(1/54);
+			conv_cost = final_cost*(0.0185);
 			System.out.println("Cost in AUD is " + conv_cost);
 		}
 		else if(currency_choice.equals("5")) {
