@@ -348,7 +348,7 @@ public class CarRental {
 			System.out.println("Not a valid choice");
 			return;
 		}
-		System.out.println("Press 1 to Confirm Payment");
+		System.out.println("Enter 1 to Confirm Payment");
 		String payment_choice = sc.nextLine();
 		if(payment_choice.equals("1")) {
 			System.out.println("Payment confirmed");
