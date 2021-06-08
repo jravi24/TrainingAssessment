@@ -321,7 +321,7 @@ public class CarRental {
 		Scanner sc = new Scanner(System.in);
 		String currency_choice = sc.nextLine();
 		if(currency_choice.equals("1")) {
-			conv_cost = final_cost*81;
+			conv_cost = final_cost*(1/81);
 			System.out.println("Cost in EUR is " + conv_cost);
 		}
 		else if(currency_choice.equals("2")) {
